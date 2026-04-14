@@ -6,7 +6,7 @@ export default function App() {
   const [paychanguLoaded, setPaychanguLoaded] = useState(false);
   const [message, setMessage] = useState("");
 
-  const PAYCHANGU_PUBLIC_KEY = "pub-live-Q6h2DlkFEIRbDQvB9eP4lIA7GNlbeBzx";
+  const PAYCHANGU_PUBLIC_KEY = "";
 
   useEffect(() => {
     fetchProducts();
